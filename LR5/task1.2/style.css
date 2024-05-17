@@ -1,0 +1,38 @@
+
+ .table-container {
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden; 
+}
+
+.column {
+    width: 16%;
+    float: left;
+    background: #AFCDE7;
+    color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.cell {
+    width: 16%;
+    float: left;
+    background: #D8E6F3;
+    color: #000000;
+    border: 1px solid #ddd;
+    padding: 8px;
+  
+}
+
+.column:first-child,
+.cell:first-child {
+    background: #AFCDE7;
+    color: white;    
+}
