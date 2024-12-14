@@ -1061,6 +1061,10 @@ a {
         justify-content: space-between;
         align-items: center;
     }
+    .footer__bottom__social-media {
+        display: flex;
+        gap: 3.7rem;       
+    }
 }
 
 @media screen and (min-width: 1200px) {
